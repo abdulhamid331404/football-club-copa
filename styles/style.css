@@ -233,3 +233,92 @@ footer{
 .fa con{
     margin-left: 10px;
 }
+/*----------------------
+    Media Queries 
+ --------------------*/
+
+ /* Mobile devices */
+ @media only screen and (max-width:688px) {
+    .continer{
+        margin-left: 0px;
+    }
+
+    .header-background{
+        height: 100%;
+    }
+     .banner-item, .header-background{
+         grid-template-columns: repeat(1, 1fr);
+     }
+     .header-title{
+         margin-left: 30px;
+     }
+     .banner{
+         margin-left: 10px;
+         margin-bottom: 61px;
+         justify-content: center;
+     }
+     .players{
+         grid-template-columns: repeat(1, 1fr);
+         display: block;
+         align-items: center;
+         margin-left: 0px;
+     }
+     .club-destils{
+         grid-template-columns: repeat(1, 1fr);
+         display: block;
+         margin-left: 0px;
+     }
+     .club-info{
+         margin-left: 50px;
+         margin-bottom: 40px;
+     }
+     .club-picture img{
+         margin-left: 30px;
+     }
+     .uro-club-detils{
+         grid-template-columns: repeat(1, 1fr);
+         margin-left: 0px;
+     }
+     .uro-club-picture img{
+         margin-left: 30px;
+     }
+     .uro-club-info{
+         margin-left: 50px;
+     }
+     .filder-players{
+        display: none;
+    }
+    .footer-parts{
+        margin-left: 0px;
+    }
+    .logo img{
+
+        margin-left: -400px;
+    }
+    .font-awesome{
+        margin-left: -220px;
+    }
+    .copy-right{
+        margin-left:-280px;
+    }
+ } 
+ /* tablet device */
+ @media only screen  and (min-width: 668px) and (max-width:996px) {
+    .continer{
+        margin-left: 100px;
+    } 
+    .banner-item{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+        display: block;
+        align-items: center;
+        margin-left: 0px;
+    }
+    .club-destils{
+        grid-template-columns: repeat(1, 1fr);
+        display: block;
+        margin-left: 0px;
+    }
+ }
