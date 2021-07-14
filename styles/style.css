@@ -1,0 +1,235 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
+body{
+    font-family: 'Ramabhadra', sans-serif;
+}
+/* header parts */
+.header-background{
+    height: 677px;
+    width: 1440px;
+    background-color: #2D25A0;
+    margin-bottom: 70px;
+}
+.nav-bar{
+    display: flex;
+    width: 1163px;
+    height: 44px;
+    align-items: center;
+    margin-left: 156px;
+    padding-top: 42px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    padding-left: 20px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+.button a{
+    color: white;
+    background-color: #E02C6D;
+    float: left;
+    margin-left: 400px;
+    display: flex;
+    align-items: center;
+}
+.banner-item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.header-title{
+    width: 443px;
+    height: 250px;
+    margin-left: 256px;
+    margin-top: 150px;
+    color: white;
+}
+.banner{
+    width: 556px;
+    height: 438px;
+    margin-left: 102px;
+    margin-top: 80px;
+    overflow: hidden;
+}
+.banner:hover{
+    transform: scale(1.2);
+}
+.banner img{
+    height:448px ;
+    width: 358px;
+    margin-top: 135px;
+}
+.live-button a{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+.live-button{
+    background-color:#E02C6D;
+    width: 168px;
+    height: 44px;
+    align-items: center;
+}
+/* end of header  */
+
+/* ----------------------
+    start main part
+----------------------- */
+
+/*-----------------------------------------
+     This is main part of player list 
+------------------------------------------*/
+.continer{
+    margin-left: 120px;
+    margin-bottom: 156px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 50px;
+}
+.player-detiles{
+    display: block;
+}
+.player{
+    height: 550px; 
+    width:330px ;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    margin-left: 40px;
+}
+.player img{
+ width:300px ;
+ height: 256px;
+ margin-left: 15px;
+ margin-top: 30px;
+}
+h2{
+    margin-left: 15px;
+}
+p{
+    margin-left: 15px;
+}
+
+.player{
+    box-shadow:3px 3px 6px;
+} 
+/* This part of club detils */
+
+/*---------------- 
+    copa america
+------------ -----*/
+.club-destils{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+.club-info{
+    width: 469px;
+    height: 309px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.club-info p{
+    margin-left: 0px;
+}
+.club-picture img{
+    width:567px ;
+    height: 427px;
+    margin-left: 70px;
+}
+.club-info a{
+    color: white;
+    text-decoration: none;
+    background-color:#E02C6D;
+    width: 168px;
+    height: 44px;
+    align-items: center;
+}
+/*---------------- 
+    UEFA Final 
+-------------------*/
+.uro-club-detils{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 100px;
+}
+.uro-club-picture img{
+    width:567px ;
+    height: 427px;
+    margin-left: 130px;
+
+}
+.uro-club-info{
+    width: 469px;
+    height: 309px;
+    margin-left: 82px;
+}
+.uro-club-info p{
+    margin-left: 0px;
+}
+.uro-club-info a{
+    color: white;
+    text-decoration: none;
+    background-color:#E02C6D;
+    width: 168px;
+    height: 44px;
+    align-items: center;
+}
+/* Start filder detiles */
+.filder-players{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 1440px;
+    height: 340px;
+    background-color: gray;
+    margin-bottom: 150px;
+}
+.player-side ul{
+    display: block;
+    margin-left: 15px;
+}
+h4{
+    margin-left: 70px;
+    color: white;
+}
+.player-side ul:hover li{
+   color: yellow;
+}
+.player-side ul> li:hover{
+    color: tomato;
+}
+/* end of main part */
+
+/*--------------------- 
+    start footer 
+------------------------*/
+footer{
+    width: 483px;
+    height: 213px;
+    margin-left: 400px;
+    margin-bottom: 63px;
+}
+.logo img{
+    width: 483px;
+    height: 110px;
+    align-items: center;
+}
+.font-awesome{
+    width: 170px;
+    height: 32px;
+    align-items: center;
+    margin-left: 280px;
+}
+.copy-right{
+    align-items: center;
+    margin-left:230px;
+}
+.fa con{
+    margin-left: 10px;
+}
